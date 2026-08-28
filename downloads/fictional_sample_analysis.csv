@@ -1,0 +1,22 @@
+﻿id,received_months_ago,source,country,product,grade,score,confidence,reasons,missing_information,next_action,follow_up_subject,follow_up_draft,safety_flags,engine,model,human_review_required
+DEMO-001,4,Website,Saudi Arabia,Automatic juice filling and capping line,A,100,High,已明确机器或生产环节。 | 已知目标国家或市场。 | 买家提供了可量化的产能、尺寸或数量要求。 | 已提供电制或安装参数。 | 买家已索取或查看报价，存在明确商业意图。 | 已提到交期或项目时间窗口。,预算状态与决策流程,在一个工作日内发送个性化复联，并将技术问题转给技术销售。,Checking your Automatic juice filling and capping line project,"Hello,
+
+I am following up on your earlier inquiry about Automatic juice filling and capping line for your project in Saudi Arabia. To confirm whether the project is still active and avoid sending an unsuitable configuration, could you please update us on the points below?
+
+- budget status and decision process
+
+Once confirmed, our team can review the appropriate next step and prepare an updated response. Any price, lead-time, certification, or installation commitment will be confirmed by a human sales representative.
+
+Best regards,",,heuristic,none,YES
+DEMO-002,6,Alibaba,Kenya,Premade pouch packing machine,B,75,High,已明确机器或生产环节。 | 已知目标国家或市场。 | 买家已索取或查看报价，存在明确商业意图。 | 存在技术验证、合规、实施或售后信号。,目标产能、包装尺寸或采购数量 | 电制与安装条件 | 预算状态与决策流程 | 目标采购或交付时间,发送简短复联，提出 3–4 个资格确认问题并设置跟进提醒。,Checking your Premade pouch packing machine project,"Hello,
+
+I am following up on your earlier inquiry about Premade pouch packing machine for your project in Kenya. To confirm whether the project is still active and avoid sending an unsuitable configuration, could you please update us on the points below?
+
+- target capacity, package size, or order quantity
+- power standard and installation conditions
+- budget status and decision process
+
+Once confirmed, our team can review the appropriate next step and prepare an updated response. Any price, lead-time, certification, or installation commitment will be confirmed by a human sales representative.
+
+Best regards,",,heuristic,none,YES
+DEMO-003,2,Website,Unknown,Unknown,Invalid,5,High,内容符合非买家营销或垃圾信息特征。,,归档为非买家垃圾信息，不投入销售时间。,,,,heuristic,none,YES
