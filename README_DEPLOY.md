@@ -22,7 +22,7 @@ Static, dependency-free site package.
 Drag this entire folder or its ZIP into the provider's static-site deployment interface. No build command is required.
 
 ## Pre-publish check
-- Confirm `rinp1998@gmail.com` is correct.
+- Confirm `rin@inquiryflowhq.com` is correct.
 - Open `index.html`, test language switch and both mailto buttons.
 - Open `sample-report.html` and `privacy.html`.
 - Do not add invented testimonials, client logos, response rates or revenue claims.
