@@ -1,0 +1,20 @@
+{
+  "release_id": "v4-web-20260912-1",
+  "site_type": "STATIC_WRITTEN_WORKFLOW_DISCOVERY",
+  "real_customer_data_intake": false,
+  "automatic_email_sending": false,
+  "runtime_model": false,
+  "files": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "404.html": "0839e18d6dd4717c2f694650085a392e62e91c0ed5745da7492d4ec6b3a3c08c",
+    "CNAME": "8e9ef6860a491330f38227db161f4f63521e37cca545f7141ca715595570234a",
+    "README_DEPLOY.md": "9b8ca4181b75e0836f44fd1d4b1edc29ba358c76e8bf81b3f484424f9769ebcf",
+    "assets/favicon.svg": "14a053c8ebbf5bd01fa462684f05df3ec8bfed12aec7aba5a8347908d1c1d37c",
+    "assets/site.js": "20030a96dddd70e39468ff34db393d7b7d7fd2fffbe0d28d2176e6310a429d1b",
+    "assets/styles.css": "7ee7e12e1048867d999a19980e6adb2c7325804f173ee993f1b9fc22487b43ed",
+    "index.html": "7ac70473a26f9aac2f7663f331f78465a3d1e8ea036ec565ad0dbec7ca0452d1",
+    "privacy.html": "1253f2380286eff47ece3df43ffe3377f110d6f18b460edf5089cff945f50771",
+    "robots.txt": "16ceb5ee3e0dc13aa9adf31a3ebbe45a1d965b8c2b9f72eaf84e5911e140ed95",
+    "sample-report.html": "1df5eed20a6624224414499e9be834a05309009208ed2907dbd59b076fc17325"
+  }
+}

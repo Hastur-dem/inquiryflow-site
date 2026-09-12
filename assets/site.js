@@ -1,15 +1,21 @@
-
-(function(){
-  const body=document.body;
-  const buttons=[...document.querySelectorAll('[data-set-lang]')];
-  const saved=localStorage.getItem('inquiryflow-lang');
-  const initial=saved || (((navigator.language||'').toLowerCase().startsWith('zh')) ? 'zh' : 'en');
-  function setLang(lang){
-    body.dataset.lang=lang;
-    document.documentElement.lang=lang==='zh'?'zh-CN':'en';
-    buttons.forEach(b=>b.classList.toggle('active',b.dataset.setLang===lang));
-    localStorage.setItem('inquiryflow-lang',lang);
+"use strict";
+(() => {
+  function setLanguage(lang) {
+    const selected = lang === "en" ? "en" : "zh";
+    document.body.dataset.language = selected;
+    document.documentElement.lang = selected === "en" ? "en" : "zh-CN";
+    document.querySelectorAll("button[data-lang]").forEach(button => {
+      button.setAttribute("aria-pressed", String(button.dataset.lang === selected));
+    });
+    document.querySelectorAll('a[href$=".html"],a[data-page]').forEach(link => {
+      const path = link.dataset.page || link.getAttribute("href");
+      link.dataset.page = path;
+      link.setAttribute("href", path + (selected === "en" ? "?lang=en" : ""));
+    });
   }
-  buttons.forEach(b=>b.addEventListener('click',()=>setLang(b.dataset.setLang)));
-  setLang(initial);
+  const requested = new URLSearchParams(location.search).get("lang");
+  setLanguage(requested);
+  document.querySelectorAll("button[data-lang]").forEach(button => {
+    button.addEventListener("click", () => setLanguage(button.dataset.lang));
+  });
 })();
